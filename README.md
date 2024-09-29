@@ -1,6 +1,6 @@
 该repo为2024秋季学期起进行的开源作业project之一。欢迎各位核对纠错，也欢迎未来选课的学弟参考。
 
-本课程为《量子场论》，2024秋季，谭时纳老师授课。
+本课程为《群论 I》，2024秋季，李新征老师授课。
 
 > 该repo仅作学习用途。This repo is ONLY FOR STUDY USE.
 
@@ -29,7 +29,6 @@
 + （不是很推荐）安装Typst CLI：根据[Typst CLI安装指引](https://github.com/typst/typst?tab=readme-ov-file#installation)进行安装，并安装必要的包：
   ```
   typst init @preview/problemst:0.1.0
-  typst init @preview/physica:0.9.3
   ```
   然后进行编译
   ```
