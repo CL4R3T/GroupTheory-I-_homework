@@ -30,7 +30,7 @@ jobs:
           ./run_typst.sh
 
       - name: Upload ZIP file to GitHub release
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: compiled_pdfs
-          path: compiled_pdfs.zip  # 上传生成的 zip 文件
+          path: pdf_outputs/*.pdf  # 上传生成的 pdf 文件
